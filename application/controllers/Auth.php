@@ -5,7 +5,16 @@ class Auth extends CI_Controller {
 
 	public function index()
 	{
+		$this->load->view('inc/header');
 		$this->load->view('auth/login');
-		// echo "string";
+		$this->load->view('inc/footer');
+		
+	}
+	public function register()
+	{
+		$this->load->view('inc/header');
+		$this->load->view('auth/register');
+		$this->load->view('inc/footer');
+		
 	}
 }
