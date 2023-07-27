@@ -12,7 +12,8 @@ class Auth extends CI_Controller {
 	}
 	public function register()
 	{
-		$this->load->view('inc/header');
+		$data['title']="Login | SimPos";
+		$this->load->view('inc/header',$data);
 		$this->load->view('auth/register');
 		$this->load->view('inc/footer');
 		

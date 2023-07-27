@@ -19,7 +19,7 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Selamat Datang</h1>
                                     </div>
-                                    <form class="user">
+                                    <form class="user" action="<?=base_url('auth/login')?>">
                                         <div class="form-group">
                                             <input type="email" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
@@ -30,11 +30,11 @@
                                             <input type="password" class="form-control form-control-user"
                                                 id="exampleInputPassword" placeholder="Password" name="password">
                                         </div>
-                                        <button class="btn btn-primary btn-user btn-block">
+                                        <button class="btn btn-primary btn-user btn-block" type="submit">
                                             Login
                                         </button>
                                         <hr>
-                                        <button class="btn btn-warning btn-block btn-user">
+                                        <button class="btn btn-warning btn-block btn-user" type="submit"  >
                                             Buat Akun
                                         </button>
                                     </form>

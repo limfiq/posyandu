@@ -90,11 +90,7 @@
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Cetak Data :</h6>
-                        <a class="collapse-item" href="<?=base_url('dashboard/ortu');?>">Orang Tua</a>
-                        <a class="collapse-item" href="<?=base_url('dashboard/anak');?>">Anak</a>
-                        <a class="collapse-item" href="<?=base_url('dashboard/jenisvaksin');?>">Vaksinasi</a>
-                        <a class="collapse-item" href="<?=base_url('dashboard/dataimunisasi');?>">Imunisasi</a>
-                        <a class="collapse-item" href="<?=base_url('dashboard/rekapjadwal');?>">Rekap Jadwal</a>
+                        <a class="collapse-item" href="<?=base_url('dashboard/cetak');?>">Cetak Data</a>
                     </div>
                 </div>
             </li>
