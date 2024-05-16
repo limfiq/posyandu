@@ -1,26 +1,13 @@
 {
-  "name": "webposyandu",
-  "version": "1.0.0",
-  "description": "Aplikasi Web Posyandu",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/limfiq/posyandu.git"
-  },
-  "keywords": [
-    "posyandu"
-  ],
-  "author": "limfiq.inc",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/limfiq/posyandu/issues"
-  },
-  "homepage": "https://github.com/limfiq/posyandu#readme",
-  "dependencies": {
-    "express": "^4.19.2",
-    "mysql2": "^3.9.4"
-  }
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0",
+        "vite": "^5.0"
+    }
 }
